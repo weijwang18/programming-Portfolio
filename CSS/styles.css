@@ -11,32 +11,37 @@ body {
   width: 50%;
   height: auto;
   border-radius: 50%;
-  margin-top: 60%;
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
-  margin-left: 10%;
+  border: 1px solid #f16821;
+  display: block;
+  box-sizing: content-box;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  margin-top: 5%;
 }
 
-.aboutMe {
+.intro {
   margin-top: 30%;
   margin-bottom: 20%;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .education p {
   line-height: 15px;
 }
 
-.aboutMe p {
+.intro p {
   font-size: 20px;
   color: #f3a333;
 }
 
-.aboutMe h1 {
+.intro h1 {
   font-size: 70px;
   margin-bottom: 24px;
-  line-height: 88px;
+  line-height: 50px;
   font-weight: 400;
   color: #f16821;
+  text-shadow: 1px 1px 2px #f3a333;
 }
 
 .project p {
@@ -67,5 +72,14 @@ body {
   margin-left: 15%;
 }
 
-.title {
+a {
+  text-decoration: none;
+}
+
+ol {
+  padding: 3px;
+}
+
+.aboutMe {
+  margin-top: 5%;
 }
