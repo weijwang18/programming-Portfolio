@@ -1,5 +1,10 @@
 body {
-  background-color: #fffe9a;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100.3%
+  );
 }
 
 #myphoto {
@@ -41,11 +46,26 @@ body {
 .projectimages {
   width: 50%;
   height: auto;
-  padding: 10px;
+  padding: 15px;
 }
 
 .projects {
   margin-left: 15%;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.experience {
+  float: right;
+}
+
+.education {
+  margin-left: 15%;
+}
+
+.hobbies {
+  margin-left: 15%;
+}
+
+.title {
 }
