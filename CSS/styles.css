@@ -1,9 +1,14 @@
+body {
+  background-color: #fffe9a;
+}
+
 #myphoto {
   width: 50%;
   height: auto;
   border-radius: 50%;
   margin-top: 60%;
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  margin-left: 10%;
 }
 
 .aboutMe {
@@ -12,14 +17,35 @@
   margin-left: 10%;
 }
 
-.projects ul {
-  list-style-type: none;
-}
-
 .education p {
   line-height: 15px;
 }
 
 .aboutMe p {
   font-size: 20px;
+  color: #f3a333;
+}
+
+.aboutMe h1 {
+  font-size: 70px;
+  margin-bottom: 24px;
+  line-height: 88px;
+  font-weight: 400;
+  color: #f16821;
+}
+
+.project p {
+  line-height: 15px;
+}
+
+.projectimages {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+}
+
+.projects {
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
