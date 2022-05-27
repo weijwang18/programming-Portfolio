@@ -1,15 +1,16 @@
-#name {
-  text-align: center;
-}
-
-.myphoto {
-  display: block;
+#myphoto {
   width: 50%;
-  height: auto;
-  float: left;
-  padding: 20px;
+  border-radius: 50%;
 }
 
-#aboutMe {
-  float: left;
+.aboutMe {
+  margin-top: 40px;
+}
+
+.projects ul {
+  list-style-type: none;
+}
+
+.row {
+  margin: 50px;
 }
