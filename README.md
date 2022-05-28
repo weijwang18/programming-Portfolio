@@ -2,7 +2,9 @@
 
 #### By _**Winnie Wang**_
 
-#### _This is my programming portfolio_
+#### _This is my programming portfolio._
+
+[GitHub Pages](https://weijwang18.github.io/programming-Portfolio/)
 
 ## Technologies Used
 
@@ -11,7 +13,7 @@
 
 ## Description
 
-_This is my programming portfolio which showcase my works and skills as a beginner programmer_
+_This is my programming portfolio which showcase my works and skills as a beginner programmer._
 
 ## Setup/Installation Requirements
 
@@ -21,7 +23,7 @@ _This is my programming portfolio which showcase my works and skills as a beginn
 
 ## Known Bugs
 
-- _Since I haven't completed many projects, I will only display placeholders for now_
+- _Since I haven't completed many projects, I will only display placeholders for now._
 
 ## License
 
