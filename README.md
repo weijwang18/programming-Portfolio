@@ -1,8 +1,8 @@
-# _{My portfolio}_
+# _My portfolio_
 
-#### By _**{Winnie Wang}**_
+#### By _**Winnie Wang**_
 
-#### _{This is my programming portfolio}_
+#### _This is my programming portfolio_
 
 ## Technologies Used
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-_{This is my programming portfolio which showcase my works and skills as a beginner programmer}_
+_This is my programming portfolio which showcase my works and skills as a beginner programmer_
 
 ## Setup/Installation Requirements
 
@@ -25,6 +25,6 @@ _{This is my programming portfolio which showcase my works and skills as a begin
 
 ## License
 
-_{MIT}_
+_MIT_
 
 Copyright (c) _2022_ _Winnie Wang_
