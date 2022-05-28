@@ -84,6 +84,7 @@ iframe {
 
 .experience {
   float: right;
+  line-height: 22px;
 }
 
 .education {
@@ -106,6 +107,22 @@ ol {
   margin-top: 5%;
 }
 
+h3 {
+  padding-left: 8px;
+  line-height: 40px;
+}
+.aboutMe h3 {
+  background-color: #90c1b5;
+}
+
+.education h3 {
+  background-color: #a1c1b3;
+}
+
+.hobbies h3 {
+  background-color: #8ec0b5;
+}
+
 #myphoto {
   width: 50%;
   height: auto;
@@ -118,4 +135,9 @@ ol {
   margin-bottom: 10%;
   margin-top: 5%;
   padding: 10px;
+}
+
+.footer {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
