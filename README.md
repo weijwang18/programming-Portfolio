@@ -10,6 +10,7 @@
 
 - _HTML/CSS_
 - _JavaScript_
+- _Bootstrap_
 
 ## Description
 
@@ -23,7 +24,7 @@ _This is my programming portfolio which showcase my works and skills as a beginn
 
 ## Known Bugs
 
-- _Since I haven't completed many projects, I will only display placeholders for now._
+- _Since I haven't completed some of the projects, I used placeholder images._
 
 ## License
 
