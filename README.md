@@ -23,7 +23,7 @@ _This is my programming portfolio which showcase my works and skills as a beginn
 
 ## Known Bugs
 
-- _Since I haven't completed some of the projects, I put placeholders on pictures for now._
+- _Since I haven't completed some of the projects, I used placeholder images._
 
 ## License
 
