@@ -5,6 +5,8 @@ body {
     rgb(247, 198, 169) 54.2%,
     rgb(21, 186, 196) 100.3%
   );
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 .introWrapper {
@@ -17,8 +19,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .avatarWrapper {
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: start;
 }
@@ -75,11 +78,29 @@ iframe {
   width: 50%;
   height: auto;
   padding: 10px;
+  display: block;
+  margin: auto;
 }
 
 .projects {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.projects h4 {
+  color: #f16821;
+  text-shadow: 3px 2px 2px #f3a333;
+  opacity: 65%;
+}
+
+.projects h6 {
+  color: #f16821;
+  opacity: 40%;
+  text-shadow: 1px 1px 1px #f3a333;
+}
+
+.projects p {
+  color: #7fc0b7;
 }
 
 .experience {
@@ -111,6 +132,7 @@ h3 {
   padding-left: 8px;
   line-height: 40px;
 }
+
 .aboutMe h3 {
   background-color: #90c1b5;
 }
