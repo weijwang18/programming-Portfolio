@@ -10,6 +10,7 @@
 
 - _HTML/CSS_
 - _JavaScript_
+- _Bootstrap_
 
 ## Description
 
