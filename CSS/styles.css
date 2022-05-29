@@ -5,25 +5,49 @@ body {
     rgb(247, 198, 169) 54.2%,
     rgb(21, 186, 196) 100.3%
   );
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
-#myphoto {
-  width: 50%;
+.introWrapper {
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.greetingWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.opacity80 {
+  opacity: 80%;
+}
+
+.opacity65 {
+  opacity: 65%;
+}
+
+.opacity45 {
+  opacity: 45%;
+}
+
+.avatarImg {
+  width: 80%;
   height: auto;
   border-radius: 50%;
-  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
-  border: 1px solid #f16821;
-  display: block;
-  box-sizing: content-box;
-  margin: 0 auto;
-  margin-bottom: 10%;
-  margin-top: 5%;
+  box-shadow: rgb(37 39 89 / 8%) 3px 8px 8px 3px;
 }
 
-.intro {
-  margin-top: 30%;
-  margin-bottom: 20%;
-  margin-left: 5%;
+iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .education p {
@@ -31,8 +55,10 @@ body {
 }
 
 .intro p {
-  font-size: 20px;
-  color: #f3a333;
+  font-size: 23px;
+  color: #f16821;
+  opacity: 40%;
+  text-shadow: 1px 1px 1px #f3a333;
 }
 
 .intro h1 {
@@ -41,7 +67,7 @@ body {
   line-height: 50px;
   font-weight: 400;
   color: #f16821;
-  text-shadow: 1px 1px 2px #f3a333;
+  text-shadow: 3px 2px 2px #f3a333;
 }
 
 .project p {
@@ -51,17 +77,35 @@ body {
 .projectimages {
   width: 50%;
   height: auto;
-  padding: 15px;
+  padding: 10px;
+  display: block;
+  margin: auto;
 }
 
 .projects {
-  margin-left: 15%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
+.projects h4 {
+  color: #f16821;
+  text-shadow: 3px 2px 2px #f3a333;
+  opacity: 65%;
+}
+
+.projects h6 {
+  color: #f16821;
+  opacity: 40%;
+  text-shadow: 1px 1px 1px #f3a333;
+}
+
+.projects p {
+  color: #7fc0b7;
+}
+
 .experience {
   float: right;
+  line-height: 22px;
 }
 
 .education {
@@ -82,4 +126,40 @@ ol {
 
 .aboutMe {
   margin-top: 5%;
+}
+
+h3 {
+  padding-left: 8px;
+  line-height: 40px;
+}
+
+.aboutMe h3 {
+  background-color: #90c1b5;
+}
+
+.education h3 {
+  background-color: #a1c1b3;
+}
+
+.hobbies h3 {
+  background-color: #8ec0b5;
+}
+
+#myphoto {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  border: 8px solid #7fc0b7;
+  display: block;
+  box-sizing: content-box;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
